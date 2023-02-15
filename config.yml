@@ -1,4 +1,37 @@
 baseURL: ""
 languageCode: en-us
-title: My New Hugo Site
+title: Bytes of the Past
 theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Welcome to Bytes of the Past"
+    Content: Bytes of the Past is a journey through the fascinating history of computer science. 
+            Our collaborative blog unearths the untold stories of computing pioneers and the technologies that have shaped our world. 
+            Join us as we delve into the bytes of the past and explore the rich heritage of computer science.
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: instagram
+      url: "https://instagram.com/"
+    - name: github
+      url: "https://twitter.com/"
+  ShowBreadcrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30

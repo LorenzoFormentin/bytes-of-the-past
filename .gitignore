@@ -1,0 +1,5 @@
+# Hugo file to ignore
+
+
+# Temporary lock file while building
+/.hugo_build.lock
