@@ -3,11 +3,15 @@ languageCode: en-us
 title: Bytes of the Past
 theme: PaperMod
 
+#googleAnalytics:
+
 params:
+  env: production
+  keywords: [Blog, Computer, Science, History]
   homeInfoParams:
     Title: "Welcome to Bytes of the Past"
     Content: Bytes of the Past is a journey through the fascinating history of computer science. 
-            Our collaborative blog unearths the untold stories of computing pioneers and the technologies that have shaped our world. 
+            Our collaborative blog unearths the stories of computing pioneers and the technologies that have shaped our world. 
             Join us as we delve into the bytes of the past and explore the rich heritage of computer science.
   socialIcons:
     - name: twitter
@@ -16,10 +20,20 @@ params:
       url: "https://instagram.com/"
     - name: github
       url: "https://twitter.com/"
+  DateFormat: "2 January, 2006"
   ShowBreadcrumbs: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  showtoc: true
+  tocopen: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 menu:
   main:
@@ -35,3 +49,7 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
