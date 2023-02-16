@@ -1,5 +1,6 @@
 baseURL: ""
 languageCode: en-us
+paginate: 10
 title: Bytes of the Past
 theme: PaperMod
 
@@ -28,6 +29,12 @@ params:
   ShowCodeCopyButtons: true
   showtoc: true
   tocopen: true
+  assets:
+    favicon: "/favicon/icons8-processore-ios-16-filled-96.png"
+    favicon16x16: "/favicon/icons8-processore-ios-16-filled-16.png"
+    favicon32x32: "/favicon/icons8-processore-ios-16-filled-32.png"
+    aapple_touch_icon: "/favicon/icons8-processore-ios-16-filled-32.png"
+    safari_pinned_tab: "/favicon/icons8-processore-ios-16-filled-32.png"
 
 outputs:
   home:
